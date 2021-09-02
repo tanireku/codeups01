@@ -1,0 +1,24 @@
+.p-header {
+  height: rem(50);
+  background-color: rgba($color: $background, $alpha: 0.5);
+
+}
+
+.p-header__logo {
+  width: rem(70);
+}
+
+.p-header__logo a {
+  display: block;
+}
+
+.p-header__logo img {
+  width: rem(70);
+  height: rem(40);
+}
+
+.p-header__drawer {
+  position: absolute;
+  top: rem(14);
+  right: rem(22);
+}
